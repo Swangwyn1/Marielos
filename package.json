@@ -11,15 +11,13 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "gsap": "^3.12.5"
-  },
-  "devDependencies": {
+    "gsap": "^3.12.5",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
     "typescript": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
+    "@types/react-dom": "latest"
   }
 }
