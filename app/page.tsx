@@ -56,6 +56,21 @@ const PROJECTS = [
   { title: "Solo", category: "B/W", year: "2025", Lugar: "La Ceiba", desc: "Una toma de estudio dramática y de alto contraste en blanco y negro de una bailarina en pose, con una iluminación de claroscuro que resalta la forma humana, el tutú y la disciplina, creando una atmósfera de misterio y belleza pura.", file: "Bailarina.jpg" }, 
   { title: "Espacios de Espera", category: "B/W", year: "2025", Lugar: "N/A", desc: "Una fotografía documental en blanco y negro de estilo candid que captura un momento tranquilo de aislamiento urbano, donde las luces fluorescentes de un puesto de mercado iluminan la soledad de una figura solitaria.", file: "Alone.jpg" },
   { title: "Posada Solitaria", category: "B/W", year: "2025", Lugar: "Valle", desc: "Un estudio sobre la composición y el minimalismo en blanco y negro, donde un pájaro solitario se posa sobre un techo de tejas de terracota texturizadas, enmarcado por un cielo nublado y difuso.", file: "Bird.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Kodak Portra 400_01.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Kodak Portra 400_02.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Texas_01.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_01.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_02.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_03.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_04.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_05.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Valle_06.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Letrero.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Stanza01.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Stanza02.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Marathon03.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "Alessandro.jpg" },
+  { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "1.jpg" },
 ].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
 
 // --- CONSTANTS ---
