@@ -204,7 +204,7 @@ function buildTiles(s: Settings): { tiles: Tile[]; anglePer: number } {
       // depth jitter: pull some tiles toward the camera, push others back
       const radius = s.ringSize + (prng(seed * 5.7) - 0.5) * s.stack;
       // Random image pick — not sequential, avoid repeating the neighbour.
-      let projectIndex = Math.floor(prng(seed * 8.31 + r * 17.3 + c * 3.77) * PROJECTS.length);
+      let projectIndex = n % PROJECTS.length;
       if (n > 0 && projectIndex === tiles[n - 1]?.projectIndex) {
         projectIndex = (projectIndex + 1 + Math.floor(prng(seed * 2.17) * (PROJECTS.length - 1))) % PROJECTS.length;
       }
