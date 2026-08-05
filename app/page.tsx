@@ -1266,7 +1266,7 @@ export default function CurvedRingArchive({
                       className="text-[10px] uppercase tracking-[0.18em] mb-1.5"
                       style={{ color: t.textMuted }}
                     >
-                      Client
+                      Lugar
                     </p>
                     <p className="text-sm font-medium" style={{ color: t.text }}>
                       {active.project.client}
