@@ -51,9 +51,6 @@ const PROJECTS = [
 const SEGMENTS = 4; // vertical strips per tile (4 ≈ same curve, 33% fewer DOM nodes)
 
 
-// --- CONSTANTS ---
-const SEGMENTS = 4; // vertical strips per tile (4 ≈ same curve, 33% fewer DOM nodes)
-
 // Live-tunable settings (exposed in the on-screen control panel).
 type Settings = {
   perRow: number; // tiles around the cylinder per row
