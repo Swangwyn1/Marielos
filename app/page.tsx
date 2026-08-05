@@ -949,7 +949,7 @@ export default function CurvedRingArchive({
         }`}
       >
         <h1 className="text-sm font-bold tracking-widest uppercase" style={{ color: t.text }}>
-          Curved Ring Archive
+          Marielos 
         </h1>
         <p className="text-xs mt-1" style={{ color: t.textMuted }}>
           Scroll, drag, and explore
