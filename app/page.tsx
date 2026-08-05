@@ -196,8 +196,8 @@ function buildTiles(s: Settings): { tiles: Tile[]; anglePer: number } {
       if (n > 0 && projectIndex === tiles[n - 1]?.projectIndex) {
         projectIndex = (projectIndex + 1 + Math.floor(prng(seed * 2.17) * (PROJECTS.length - 1))) % PROJECTS.length;
       }
-      const focalX = prng(seed * 6.21);
-      const focalY = prng(seed * 7.43);
+      const focalX = 0.5;
+      const focalY = 0.5;
       // Bend each tile to the arc it spans on the cylinder, scaled by the
       // curve slider (bend === anglePer → perfect cylinder hug).
       const arcDeg = (width / radius) * (180 / Math.PI);
