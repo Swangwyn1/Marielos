@@ -46,12 +46,11 @@ const PROJECTS = [
   { title: "Modern House", category: "Architecture", year: "2026", client: "Form Atelier", desc: "Crisp geometry and generous glass framing a contemporary minimalist home.", file: "modern-minimalist-house.jpg" },
   { title: "Rustic Elegance", category: "Interior", year: "2025", client: "Heritage", desc: "Warm timber and soft fabrics compose a space that feels lived-in and refined.", file: "warm-rustic-elegance.jpg" },
   { title: "Modern House", category: "Architecture", year: "2026", client: "Form Atelier", desc: "Crisp geometry and generous glass framing a contemporary minimalist home.", file: "modern-minimalist-house.jpg" },
-  { title: "The Art of Noticing", category: "Analogo", year: "2025", client: "Casual", desc: "Capturando la pátina del tiempo y la sal en la arquitectura costera.", file: "Kodak Portra 400_04.jpg" },
-].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
+  { title: "The Art of Noticing", category: "Analogo", year: "2025", client: "Casual", desc: "Capturando la pátina del tiempo y la sal en la arquitectura costera.", file: "Kodak Portra 400_04.jpg" }
+  ].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
 
 // --- CONSTANTS ---
-const SEGMENTS = 4; // vertical strips per tile
-].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
+const SEGMENTS = 4; // vertical strips per tile (4 ≈ same curve, 33% fewer DOM nodes)
 
 
 // --- CONSTANTS ---
