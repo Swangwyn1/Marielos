@@ -21,6 +21,7 @@ const IMG = (file: string) => `/images/astra-archive/${file}`;
 
 const PROJECTS = [
   { title: "Contemplative Solitude", category: "Portrait", year: "2025", client: "Atlas Studio", desc: "A quiet study in stillness — soft window light and the unhurried grace of being alone.", file: "contemplative-solitude.jpg" },
+    { title: "Dynamic Basketball", category: "Sports", year: "2025", client: "Court Co.", desc: "Peak athleticism frozen mid-air — explosive vertical leap and raw competitive energy.", file: "Kodak Portra 400_04.jpg" },
   { title: "Dynamic Basketball", category: "Sports", year: "2025", client: "Court Co.", desc: "Peak athleticism frozen mid-air — explosive vertical leap and raw competitive energy.", file: "dynamic-basketball-action.jpg" },
   { title: "Basketball Motion", category: "Sports", year: "2024", client: "Court Co.", desc: "Motion blur meets precision — a kinetic portrait of speed and constant movement.", file: "dynamic-basketball-motion.jpg" },
   { title: "Joyful Backyard", category: "Lifestyle", year: "2025", client: "Sunhouse", desc: "Golden-hour warmth in a sun-dappled garden — candid laughter and easy summer joy.", file: "joyful-backyard-scene.jpg" },
