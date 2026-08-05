@@ -21,7 +21,6 @@ const IMG = (file: string) => `/images/astra-archive/${file}`;
 
 const PROJECTS = [
   { title: "Contemplative Solitude", category: "Portrait", year: "2025", client: "Atlas Studio", desc: "A quiet study in stillness — soft window light and the unhurried grace of being alone.", file: "contemplative-solitude.jpg" },
-  { title: "Dynamic Basketball", category: "Sports", year: "2024", Evento: "Marathon", desc: "La 48 edición de la Maratón Internacional de Diario LA PRENSA, San Pedro Sula, Honduras.", file: "Kodak Portra 400_04.jpg" },
   { title: "Dynamic Basketball", category: "Sports", year: "2025", client: "Court Co.", desc: "Peak athleticism frozen mid-air — explosive vertical leap and raw competitive energy.", file: "dynamic-basketball-action.jpg" },
   { title: "Marathon La Prensa", category: "Sports", year: "2024", Evento: "Marathon", desc: "La 48 edición de la Maratón Internacional de Diario LA PRENSA, San Pedro Sula, Honduras.", file: "dynamic-basketball-motion.jpg" },
   { title: "Joyful Backyard", category: "Lifestyle", year: "2025", client: "Sunhouse", desc: "Golden-hour warmth in a sun-dappled garden — candid laughter and easy summer joy.", file: "joyful-backyard-scene.jpg" },
@@ -29,7 +28,7 @@ const PROJECTS = [
   { title: "Interior II", category: "Architecture", year: "2026", client: "Form Atelier", desc: "A second study in light and emptiness — surfaces shaped purely by shadow.", file: "minimalist-interior-ii.jpg" },
   { title: "Moth in Flight", category: "Nature", year: "2024", client: "Field Notes", desc: "Macro intimacy with the ephemeral — delicate wing patterns caught against darkness.", file: "moth-in-flight.jpg" },
   { title: "Rustic Charm Café", category: "Editorial", year: "2023", client: "Lyon Press", desc: "Weathered wood, warm ceramics, and the slow ritual of a European morning coffee.", file: "rustic-charm-cafe.jpg" },
-  { title: "Autumn Whisper", category: "Editorial", year: "2024", client: "Lyon Press", desc: "Amber tones and falling light — a café caught in the hush of late autumn.", file: "autumn-whisper-cafe.jpg" },
+  { title: "Atelier Caramella", category: "B/W", year: "2024", Evento: "Casual", desc: "Documentando la disciplina, la técnica y el movimiento constante en el corazón de la cocina.", file: "autumn-whisper-cafe.jpg" },
   { title: "Rustic Grandeur", category: "Interior", year: "2025", client: "Heritage", desc: "Contemporary scale meets handcrafted warmth in a sweeping open interior.", file: "contemporary-rustic-grandeur.jpg" },
   { title: "Cozy Café", category: "Editorial", year: "2024", client: "Daybreak", desc: "Soft steam, worn tables, and the comfort of a familiar corner seat.", file: "cozy-cafe-scene.jpg" },
   { title: "Serene Beachcomber", category: "Travel", year: "2025", client: "Tideline", desc: "Bare feet on cool sand at first light — a solitary walk along the tide.", file: "serene-beachcomber.jpg" },
@@ -45,6 +44,11 @@ const PROJECTS = [
   { title: "Fire Hydrant Pose", category: "Street", year: "2025", client: "Metro", desc: "Confident attitude against raw urban texture — style meets the sidewalk.", file: "urban-pose-fire-hydrant.jpg" },
   { title: "Rustic Elegance", category: "Interior", year: "2025", client: "Heritage", desc: "Warm timber and soft fabrics compose a space that feels lived-in and refined.", file: "warm-rustic-elegance.jpg" },
   { title: "Modern House", category: "Architecture", year: "2026", client: "Form Atelier", desc: "Crisp geometry and generous glass framing a contemporary minimalist home.", file: "modern-minimalist-house.jpg" },
+].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
+
+// ¡Aquí agregas la nueva! Solo duplicas la estructura:
+   { title: "The Art of Noticing", category: "Analogo", year: "2025", Evento: "Casual", desc: "Capturando la pátina del tiempo y la sal en la arquitectura costera.", file: "Kodak Portra 400_04.jpg" },
+  { title: "Tu Nuevo Proyecto", category: "UX/UI", year: "2026", client: "Nombre del Cliente", desc: "Breve descripción de este caso de estudio.", file: "mi-nueva-foto.jpg" },
 ].map((p, i) => ({ ...p, id: `cra-${i}`, image: IMG(p.file) }));
 
 // --- CONSTANTS ---
