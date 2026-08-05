@@ -27,7 +27,7 @@ const PROJECTS = [
   { title: "Minimalist Interior", category: "Architecture", year: "2026", client: "Form Atelier", desc: "Restrained material palette and sculptural negative space, every line intentional.", file: "minimalist-interior-design.webp" },
   { title: "Interior II", category: "Architecture", year: "2026", client: "Form Atelier", desc: "A second study in light and emptiness — surfaces shaped purely by shadow.", file: "minimalist-interior-ii.webp" },
   { title: "Moth in Flight", category: "Nature", year: "2024", client: "Field Notes", desc: "Macro intimacy with the ephemeral — delicate wing patterns caught against darkness.", file: "moth-in-flight.webp" },
-  { title: "Rustic Charm Café", category: "Editorial", year: "2023", client: "Lyon Press", desc: "Weathered wood, warm ceramics, and the slow ritual of a European morning coffee.", file: "rustic-charm-cafe.webp" },
+  { title: "Rustic Charm Café", category: "Editorial", year: "2023", client: "Lyon Press", desc: "Weathered wood, warm ceramics, and the slow ritual of a European morning coffee.", file: "rustic-charm-cafe.jpg" },
   { title: "Autumn Whisper", category: "Editorial", year: "2024", client: "Lyon Press", desc: "Amber tones and falling light — a café caught in the hush of late autumn.", file: "autumn-whisper-cafe.webp" },
   { title: "Rustic Grandeur", category: "Interior", year: "2025", client: "Heritage", desc: "Contemporary scale meets handcrafted warmth in a sweeping open interior.", file: "contemporary-rustic-grandeur.webp" },
   { title: "Cozy Café", category: "Editorial", year: "2024", client: "Daybreak", desc: "Soft steam, worn tables, and the comfort of a familiar corner seat.", file: "cozy-cafe-scene.webp" },
