@@ -20,7 +20,7 @@ import gsap from "gsap";
 const IMG = (file: string) => `/images/astra-archive/${file}`;
 
 const PROJECTS = [
-  { title: "Contemplative Solitude", category: "Nature", year: "2025", Lugar: "Valle", desc: "Un paisaje rural abierto y profundo bañado por la luz cálida y dorada del atardecer.", file: "contemplative-solitude.jpg" },
+  { title: "Contemplative Solitude", category: "Nature", year: "2025", client: "Valle", desc: "Un paisaje rural abierto y profundo bañado por la luz cálida y dorada del atardecer.", file: "contemplative-solitude.jpg" },
   { title: "Playa", category: "Documental", year: "2025", Lugar: "La Ceiba", desc: "Nostalgico y profundo bañado por la luz cálida y dorada del atardecer.", file: "dynamic-basketball-action.jpg" },
   { title: "Marathon La Prensa", category: "Sports", year: "2024", Evento: "Marathon", desc: "La 48 edición de la Maratón Internacional de Diario LA PRENSA, San Pedro Sula, Honduras.", file: "dynamic-basketball-motion.jpg" },
   { title: "Marathon La Prensa", category: "Sports", year: "2024", Evento: "Marathon", desc: "La 48 edición de la Maratón Internacional de Diario LA PRENSA, San Pedro Sula, Honduras.", file: "joyful-backyard-scene.jpg" },
