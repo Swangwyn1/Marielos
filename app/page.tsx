@@ -290,7 +290,7 @@ function CurvedSurface({
                 width,
                 height,
                 maxWidth: "none",
-                objectFit: "cover",
+                objectFit: "contain",
                 objectPosition: objPos,
                 marginLeft: -i * segW,
                 display: "block",
@@ -1170,7 +1170,7 @@ export default function CurvedRingArchive({
               decoding="async"
               className="w-full h-full"
               style={{
-                objectFit: "cover",
+                objectFit: "contain",
                 objectPosition: `${Math.round((tiles[active.tileIndex]?.focalX ?? 0.5) * 100)}% ${Math.round((tiles[active.tileIndex]?.focalY ?? 0.5) * 100)}%`,
               }}
             />
