@@ -1269,7 +1269,7 @@ export default function CurvedRingArchive({
                       Client
                     </p>
                     <p className="text-sm font-medium" style={{ color: t.text }}>
-                      {active.project.client}
+                      {active.project.lugar}
                     </p>
                   </div>
                   <div>
