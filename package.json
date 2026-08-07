@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
