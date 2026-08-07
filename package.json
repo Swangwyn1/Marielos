@@ -8,17 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/analytics": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "gsap": "^3.12.5",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16",
-    "typescript": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "@types/react-dom": "latest"
+    "@types/react-dom": "latest",
+    "@vercel/analytics": "latest",
+    "@vercel/speed-insights": "^2.0.0",
+    "autoprefixer": "^10.4.16",
+    "gsap": "^3.12.5",
+    "next": "latest",
+    "postcss": "^8.4.31",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.4.1",
+    "typescript": "latest"
   }
 }
