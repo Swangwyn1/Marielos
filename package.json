@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/speed-insights": "latest",
     "@vercel/analytics": "latest",
     "next": "latest",
     "react": "latest",
