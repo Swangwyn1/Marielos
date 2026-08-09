@@ -1327,7 +1327,11 @@ export default function CurvedRingArchive({
       )}
       
       {/* --- REDES SOCIALES (Esquina inferior izquierda) --- */}
-      <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8 z-50 flex gap-5 pointer-events-auto">
+    <div 
+  className={`absolute bottom-6 left-6 md:bottom-8 md:left-8 z-50 flex gap-5 transition-opacity duration-500 ${
+    active || phase === "loader" ? "opacity-0 pointer-events-none" : "opacity-100 pointer-events-auto"
+  }`}
+>
         <a
           href="https://www.instagram.com/antithetical.outlook_"
           target="_blank"
