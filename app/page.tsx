@@ -1324,7 +1324,7 @@ export default function CurvedRingArchive({
           </button>
         </>
       )}
-      {/* --- CAPA DE PANTALLA COMPLETA --- */}
+{/* --- CAPA DE PANTALLA COMPLETA --- */}
         {isFullscreen && active && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-md">
             
@@ -1350,6 +1350,6 @@ export default function CurvedRingArchive({
         )}
 
       </div> {/* <-- ¡Ojo aquí! La etiqueta que cierra toda tu página DEBE ir al final de todo */}
-  );
+    );
 }
 
