@@ -1329,7 +1329,7 @@ export default function CurvedRingArchive({
       {/* --- REDES SOCIALES (Esquina inferior izquierda) --- */}
       <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8 z-50 flex gap-5 pointer-events-auto">
         <a
-          href="https://www.instagram.com/TU_USUARIO"
+          href="https://www.instagram.com/antithetical.outlook_"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[10px] uppercase tracking-[0.18em] transition-colors"
@@ -1340,7 +1340,7 @@ export default function CurvedRingArchive({
           Instagram
         </a>
         <a
-          href="https://www.behance.net/TU_USUARIO"
+          href="https://www.behance.net/antitheticaloutlook_?tracking_source=search_users|maria%20noriega"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[10px] uppercase tracking-[0.18em] transition-colors"
