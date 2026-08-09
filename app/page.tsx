@@ -1289,7 +1289,6 @@ export default function CurvedRingArchive({
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold tracking-wide transition-transform hover:scale-[1.03] active:scale-[0.98]"
                     style={{ backgroundColor: ac, color: t.bg }}
                   >
-                    View Case Study
                     <a
                     href={active.project.image}
                     target="_blank"
