@@ -298,6 +298,7 @@ function CurvedSurface({
               src={image}
               alt=""
               draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
               decoding="async"
               style={{
                 width,
