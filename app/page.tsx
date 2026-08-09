@@ -1349,7 +1349,7 @@ export default function CurvedRingArchive({
           </div>
         )}
 
-      </div> {/* <-- ¡Ojo aquí! La etiqueta que cierra toda tu página DEBE ir al final de todo */}
+        </div>
     );
 }
 
