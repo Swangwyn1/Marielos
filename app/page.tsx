@@ -986,7 +986,7 @@ export default function CurvedRingArchive({
       
       {/* Bottom hint pill */}
       <div
-        className={`absolute bottom-6 left-1/2 -translate-x-1/2 z-30 pointer-events-none flex items-center gap-2 px-5 py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 ${
+        className={`absolute bottom-6 left-1/2 -translate-x-1/2 z-30 pointer-events-none hidden md:flex items-center gap-2 px-5 py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 ${
           active || phase === "loader" ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
         }`}
         style={{ backgroundColor: `${t.surface}CC`, borderColor: t.border }}
