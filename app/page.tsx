@@ -981,8 +981,9 @@ export default function CurvedRingArchive({
         <p className="text-xs mt-1" style={{ color: t.textMuted }}>
           Scroll, drag, and explore
         </p>
-      </div>
 
+      </div>
+      
       {/* Bottom hint pill */}
       <div
         className={`absolute bottom-6 left-1/2 -translate-x-1/2 z-30 pointer-events-none flex items-center gap-2 px-5 py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 ${
@@ -1324,6 +1325,33 @@ export default function CurvedRingArchive({
           </button>
         </>
       )}
+      
+      {/* --- REDES SOCIALES (Esquina inferior izquierda) --- */}
+      <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8 z-50 flex gap-5 pointer-events-auto">
+        <a
+          href="https://www.instagram.com/TU_USUARIO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] uppercase tracking-[0.18em] transition-colors"
+          style={{ color: t.textMuted }}
+          onMouseEnter={(e) => e.currentTarget.style.color = t.text}
+          onMouseLeave={(e) => e.currentTarget.style.color = t.textMuted}
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.behance.net/TU_USUARIO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] uppercase tracking-[0.18em] transition-colors"
+          style={{ color: t.textMuted }}
+          onMouseEnter={(e) => e.currentTarget.style.color = t.text}
+          onMouseLeave={(e) => e.currentTarget.style.color = t.textMuted}
+        >
+          Behance
+        </a>
+      </div>
+      
 {/* --- CAPA DE PANTALLA COMPLETA --- */}
         {isFullscreen && active && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-md">
