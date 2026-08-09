@@ -1290,7 +1290,18 @@ export default function CurvedRingArchive({
                     style={{ backgroundColor: ac, color: t.bg }}
                   >
                     View Case Study
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                    <a
+                    href={active.project.image}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold tracking-wide transition-transform hover:scale-[1.03] active:scale-[0.98] cursor-pointer"
+                    style={{ backgroundColor: ac, color: t.bg }}
+                    >
+                    Pantalla completa
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M15 3h6v6" /><path d="M9 21H3v-6" /><path d="M21 3l-7 7" /><path d="M3 21l7-7" />
+                    </svg>
+                  </a>
                   </button>
                   <button
                     onClick={closeProject}
